@@ -8,5 +8,5 @@ rm -rf $KERNEL_PATH/out/ *.zip
 make mrproper && git reset --hard HEAD
 
 echo "=========================make========================="
-make O=out msm8937_defconfig
+make O=out msm8937-perf_defconfig
 make O=out
