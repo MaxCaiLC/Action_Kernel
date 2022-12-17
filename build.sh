@@ -1,5 +1,5 @@
 echo "===================Setup Export========================="
-export ARCH=arm32
+export ARCH=arm
 export CROSS_COMPILE=$GITHUB_WORKSPACE/kernel/tool/aarch/bin/aarch64-linux-android-
 export CROSS_COMPILE_ARM32=$GITHUB_WORKSPACE/kernel/tool/arm/bin/arm-linux-androideabi-
 
